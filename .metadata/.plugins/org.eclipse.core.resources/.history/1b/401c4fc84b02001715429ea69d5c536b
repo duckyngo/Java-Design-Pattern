@@ -1,0 +1,7 @@
+import java.awt.List;
+import java.util.ArrayList;
+
+
+public class Meal {
+	private ArrayList<Item> items = new ArrayList<Item>();
+}

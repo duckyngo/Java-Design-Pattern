@@ -1,0 +1,8 @@
+
+public class SingletonPatternExam {
+	public static void main(String[] args) {
+		SingleObject object =SingleObject.getInstance();
+		
+		object.showMessage();
+	}
+}

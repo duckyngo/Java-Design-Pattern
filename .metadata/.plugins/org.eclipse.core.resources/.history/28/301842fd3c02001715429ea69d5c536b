@@ -1,0 +1,31 @@
+import java.awt.Shape;
+
+import shape.Circle;
+import color.Color;
+
+
+public class ShapeFactory extends AbstractFactory{
+
+	@Override
+	Color getColor(String color) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	Shape getShape(String shape) {
+		// TODO Auto-generated method stub
+		if(shape == null){
+			return null;
+		}
+		
+		if(shape.equalsIgnoreCase("CIRCLE")){
+			return new Circle();
+		}
+		
+		
+		
+		return null;
+	}
+
+}

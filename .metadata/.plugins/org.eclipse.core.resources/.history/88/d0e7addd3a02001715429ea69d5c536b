@@ -1,0 +1,8 @@
+package shape;
+
+public class Snippet {
+	Shape shape1 = shapeFactory.getShape("RECTANGLE");
+			shape1.draw();
+			
+}
+
